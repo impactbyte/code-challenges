@@ -28,8 +28,11 @@ Jawab di bawah ini
 Which flexbox property aligns items horizontally?
 
 A. justify-content
+
 B. align-items
+
 C. align-content
+
 D. flex-direction
 ### Jawaban 3
 Jawab di bawah ini
@@ -39,8 +42,11 @@ Jawab di bawah ini
 Which flexbox property aligns items vertically?
 
 A. justify-content
+
 B. align-items
+
 C. align-content
+
 D. flex-direction
 ### Jawaban 4
 Jawab di bawah ini
@@ -50,6 +56,7 @@ Jawab di bawah ini
 What can flexbox do?
 
 A. Changing the size of the parent container
+
 B. Makes elements resize to their parent container
 ### Jawaban 5
 Jawab di bawah ini
@@ -59,6 +66,7 @@ Jawab di bawah ini
 What are flex containers?
  
 A. This is the child element to which we apply flexbox
+
 B. This is the parent element where we apply flexbox
 ### Jawaban 6
 Jawab di bawah ini
@@ -84,8 +92,11 @@ div {
 ```
 
 A. Go to center horizontally
+
 B. Go to center vertically
+
 C. Nothing, because justify-content can only be executed with align-items
+
 D. Go to the center vertically and horizontally
 ### Jawaban 7
 Jawab di bawah ini

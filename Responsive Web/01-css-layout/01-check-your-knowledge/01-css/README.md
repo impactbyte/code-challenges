@@ -28,7 +28,9 @@ Jawab di bawah ini
 Where in an HTML document is the correct place to refer to an external style sheet?
 
 A. In the `<body>` section
+
 B. In the `<head>` section
+
 c. At the top of html
 ### Jawaban 3
 Jawab di bawah ini
@@ -38,8 +40,11 @@ Jawab di bawah ini
 Which HTML attribute is used to define inline styles?
 
 A. style
+
 B. styles
+
 C. font
+
 D. class
 ### Jawaban 4
 Jawab di bawah ini
@@ -48,9 +53,12 @@ Jawab di bawah ini
 ### Soal 5
 Which is the correct CSS syntax?
 
-A. {body;color:black;}  
+A. {body;color:black;} 
+ 
 B. body:color=black;
+
 C. {body:color=black;}
+
 D. body {color: black;}  
 ### Jawaban 5
 Jawab di bawah ini
