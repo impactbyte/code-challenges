@@ -15,104 +15,103 @@ Jawab di bawah ini
 ### Soal 2
 What are grid items
 
-A. This is the child element to which we apply flexbox
+A. This is the child element to which we apply grid
 
-B. This is the parent element where we apply flexbox
+B. This is the parent element where we apply grid
+
+C. This is child element to which we apply flexbox
+
+D. This is parent element where we use gridbox
 ### Jawaban 2
 Jawab di bawah ini
 ...
 
 ### Soal 3
-Which flexbox property aligns items horizontally?
+What is the result of this code?
 
-A. justify-content
-B. align-items
-C. align-content
-D. flex-direction
+```css
+.container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+```
+
+A. class container have fixed size
+
+B. container have 3 column that are each 1 fraction wide.
+
+C. all grid items in container have 1fr width
+
+D. class container have 100% width
 ### Jawaban 3
 Jawab di bawah ini
 ...
 
 ### Soal 4
-Which flexbox property aligns items vertically?
+What is `fr` on grid
 
-A. justify-content
-B. align-items
-C. align-content
-D. flex-direction
+A. Sets the column or row to a fraction of the available space,
+
+B. Sets the column or row to the width or height of its content automatically,
+
+C. adjusts the column or row to the percent width of its container.
+
+D. Sets the column or row to the fixed size
 ### Jawaban 4
 Jawab di bawah ini
 ...
 
 ### Soal 5
-What can flexbox do?
+What is a grid made of?
 
-A. Changing the size of the parent container
-B. Makes elements resize to their parent container
+A. Lines, cells, rows, columns
+
+B. Lines, cells, columns
+
+C. Cells, Row
+
+D. Rows, column
 ### Jawaban 5
 Jawab di bawah ini
 ...
 
 ### Soal 6
-What are flex containers?
+What is the correct syntax for using the repeat() function?
  
-A. This is the child element to which we apply flexbox
-B. This is the parent element where we apply flexbox
+A. repeat(size, times)
+
+B. repeat(times, size)
+
+C. repeat(size)(times)
+
+C. repeat(times)(size)
 ### Jawaban 6
 Jawab di bawah ini
 ...
 
 ### Soal 7
-what will happen to the two elements inside the div tag?
+How can I give space between the cells?
 
-```html
-<div>
-    <h1>Learn coding on skilvul</h1>
-    <p>Halo Dunia!</p>
-</div>
-```
-```css
-div {
-    width: 100vh;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-```
+A. margin
 
-A. Go to center horizontally
-B. Go to center vertically
-C. Nothing, because justify-content can only be executed with align-items
-D. Go to the center vertically and horizontally
+B. padding
+
+C. grid-gap
+
+D. grid-cells
 ### Jawaban 7
 Jawab di bawah ini
 ...
 
 ### Soal 8
-What's wrong with this code?
+How can I make a column follow a maximum or a minimum size?
 
-```css
-div {
-    display: flex;
-    flex-direction: auto;
-    justify-content: center;
-}
-```
+A. Using maxSize() function
+
+B. Using min-max 
+
+C. Using minmax() function
+
+D. Using max-width property
 ### Jawaban 8
-Jawab di bawah ini
-...
-
-### Soal 9
-What should I do if I want to center the content horizontally?
-
-```css
-div {
-    display: flex;
-    .......
-}
-```
- 
-### Jawaban 9
 Jawab di bawah ini
 ...
