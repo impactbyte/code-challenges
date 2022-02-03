@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #E3516E;
+    --second-color: #51B5A9;
+    --third-color: #FADE8B;
+    --fourth-color: #F7F3D7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+}
+
+.shape-1 {
+    background: var(--second-color);
+    border-top-left-radius: 100%;
+}
+
+.shape-2 {
+    background: var(--third-color);
+    border-top-right-radius: 100%;
+}
+
+.shape-3 {
+    background: var(--fourth-color);
+    border-bottom-left-radius: 100%;
+}
